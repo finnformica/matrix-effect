@@ -1,5 +1,37 @@
-# matrix-effect
+# Image to Matrix Screen
 
-This project takes a high contrast image and uses the matrix screen effect to build-up this image using the falling characters. This was then saved to a .mp4 file before loading into a digital photo frame. Another project to improve my javascript skills as I have felt this has been holding me back the most within web development.
+This project takes an image (works best with high contrast images with the background removed) and uses the matrix screen effect to build-up this image using the falling characters.
 
-To run the project, npm install the dependencies and then - canvas-sketch matrix-animate.js. To learn more about canvas sketch visit https://github.com/mattdesl/canvas-sketch/blob/HEAD/docs/README.md
+## Dependencies
+
+- canvas-sketch-cli
+- npm
+
+## Getting Started
+
+1. To download `canvas-sketch-cli`:
+
+```bash
+npm install canvas-sketch-cli -g
+```
+
+2. Clone the repo:
+
+```bash
+git clone https://github.com/finnformica/matrix-effect.git
+```
+
+3. Install the requirements:
+
+```bash
+cd /.../matrix-effect/
+npm install
+```
+
+4. Run the program:
+
+```bash
+canvas-sketch matrix-animate.js
+```
+
+To learn more about canvas sketch visit https://github.com/mattdesl/canvas-sketch/blob/HEAD/docs/README.md
