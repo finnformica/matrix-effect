@@ -8,7 +8,7 @@ const settings = {
 
 let manager, img;
 
-const url = "input/luna-eating.jpg";
+const url = "input/star.jpg";
 
 // font style
 const fontSize = 25;
